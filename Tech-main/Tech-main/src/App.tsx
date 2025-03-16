@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import Login from "./Login";
 import AdminPanel from "./AdminPanel"; // Import Admin Panel
-import React from "react";
+
 
 const App = () => {
     return (
