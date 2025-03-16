@@ -5,6 +5,8 @@ import AdminPanel from "./AdminPanel"; // Import Admin Panel
 
 
 const App = () => {
+    console.log("Firebase API Key:", process.env.REACT_APP_FIREBASE_API_KEY);
+
     return (
         <Router>
             <div>
